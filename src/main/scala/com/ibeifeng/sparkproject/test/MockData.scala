@@ -105,7 +105,7 @@ object MockData {
     sparkSession.sql("select * from user_visit_action").show(10)
     sparkSession.sql("select * from user_info").show(10)
 
-    sparkSession.close()
+    //sparkSession.close()
 
 
   }
