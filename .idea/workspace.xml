@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6468772-072e-4a5d-b212-aac240b57433" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/ibeifeng/DslTest.scala" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/MockData.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="e#40#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/ibeifeng/DslTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="109" />
+              <folding>
+                <element signature="e#22#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3718">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.1/spark-sql_2.11-2.2.1.jar!/org/apache/spark/sql/functions.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.1/spark-sql_2.11-2.2.1.jar!/org/apache/spark/sql/DatasetHolder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/Test.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>aggregateBySession</find>
+      <find>session_count</find>
+      <find>partAggrInfo</find>
+      <find>calculateAndPersistAggrStat</find>
+      <find>filteredSessionid2AggrInfoRDD</find>
+      <find>sessionid2actionRDD</find>
+      <find>sessionid,sess</find>
+      <find>flatMap</find>
+      <find>sessionid2detailRDD</find>
+      <find>;</find>
+      <find>randomExtractSession</find>
+      <find>session_id</find>
+      <find>Map</find>
+      <find>taskParam</find>
+      <find>CategorySortKey</find>
+      <find>Any</find>
+      <find>NaNvl</find>
+      <find>null</find>
+      <find>Nilable</find>
+      <find>Nullable</find>
+      <find>Nil</find>
+      <find>hash</find>
+      <find>max</find>
+      <find>broadcast</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>NaN</replace>
+      <replace>Nil</replace>
+      <replace>Nullable</replace>
+      <replace>nullable</replace>
+      <replace>null</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/scala/com/ibeifeng/MySpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/JdbcCRUD.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/jdbc/JDBCHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/JDBCHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/ITaskDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/domain/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/impl/TaskDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/TaskDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/my.properties" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/constant/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/FastjsonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/util/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/util/DateUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ibeifeng/UserVisitSessionAnalyzeTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/spark/SessionAggrStatAccumulator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/domain/SessionAggrStat.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/ISessionAggrStatDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/impl/SessionAggrStatDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/conf/ConfigurationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/ISessionRandomExtractDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/impl/SessionRandomExtractDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/domain/SessionDetail.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/ISessionDetailDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/impl/SessionDetailDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/impl/DAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/domain/SessionRandomExtract.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/spark/CategorySortKey.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/domain/Top10Category.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/ITop10CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/impl/Top10CategoryDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/spark/UserVisitSessionAnalyzeSpark.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/domain/Top10Session.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/ITop10SessionDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/impl/Top10SessionDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/factory/DAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/GenerateMockData.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spark-project.properties" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/Accumulator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/AccumulatorTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ibeifeng/SessionAggrStatAccumulatorTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/spark/session/SessionAggrStatAccumulator.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ibeifeng/SparkMapJoin.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ibeifeng/CustomizeSort.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/spark/session/UserVisitSessionAnalyzeSpark.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/T1.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ibeifeng/GraphTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/MockData.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ibeifeng/DslTest.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\repository" />
+        <option name="mavenHome" value="C:/dev/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="C:\dev\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="628" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spark-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564559951405" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ibeifeng.sparkproject.test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ibeifeng.sparkproject.conf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DslTest">
+    <configuration name="CustomizeSort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibeifeng.CustomizeSort" />
+      <module name="spark-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibeifeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DslTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibeifeng.DslTest" />
+      <module name="spark-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibeifeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockData" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibeifeng.sparkproject.test.MockData" />
+      <module name="spark-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibeifeng.sparkproject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkMapJoin" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibeifeng.SparkMapJoin" />
+      <module name="spark-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibeifeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibeifeng.sparkproject.test.Test" />
+      <module name="spark-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibeifeng.sparkproject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DslTest" />
+        <item itemvalue="Application.MockData" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CustomizeSort" />
+        <item itemvalue="Application.SparkMapJoin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6468772-072e-4a5d-b212-aac240b57433" name="Default Changelist" comment="" />
+      <created>1554815742624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554815742624</updated>
+      <workItem from="1554815748515" duration="1530000" />
+      <workItem from="1554817335573" duration="1730000" />
+      <workItem from="1554819085153" duration="736000" />
+      <workItem from="1554819863139" duration="193000" />
+      <workItem from="1554859081389" duration="2088000" />
+      <workItem from="1554863554577" duration="944000" />
+      <workItem from="1554864581692" duration="4470000" />
+      <workItem from="1554876582190" duration="5067000" />
+      <workItem from="1554882259224" duration="3076000" />
+      <workItem from="1554885759011" duration="4228000" />
+      <workItem from="1554944259840" duration="4695000" />
+      <workItem from="1554957686883" duration="182000" />
+      <workItem from="1554958062680" duration="149000" />
+      <workItem from="1554958284143" duration="16156000" />
+      <workItem from="1555030510426" duration="11330000" />
+      <workItem from="1555073785699" duration="1722000" />
+      <workItem from="1555122094126" duration="4030000" />
+      <workItem from="1555144014477" duration="3660000" />
+      <workItem from="1555232612024" duration="2900000" />
+      <workItem from="1555291733395" duration="14642000" />
+      <workItem from="1555321138960" duration="1677000" />
+      <workItem from="1555399389572" duration="5781000" />
+      <workItem from="1555468761605" duration="20952000" />
+      <workItem from="1555549107430" duration="16777000" />
+      <workItem from="1555652264433" duration="447000" />
+      <workItem from="1555732884201" duration="1845000" />
+      <workItem from="1555734795568" duration="10169000" />
+      <workItem from="1555898791049" duration="20303000" />
+      <workItem from="1556018330250" duration="607000" />
+      <workItem from="1556067967268" duration="13447000" />
+      <workItem from="1556156140219" duration="20000" />
+      <workItem from="1556240611004" duration="606000" />
+      <workItem from="1556414979094" duration="8642000" />
+      <workItem from="1556504297328" duration="3073000" />
+      <workItem from="1556546361323" duration="56000" />
+      <workItem from="1556586269853" duration="798000" />
+      <workItem from="1557020008555" duration="620000" />
+      <workItem from="1557041006921" duration="6631000" />
+      <workItem from="1557067322233" duration="702000" />
+      <workItem from="1557106037908" duration="12305000" />
+      <workItem from="1557392446338" duration="2532000" />
+      <workItem from="1557740743205" duration="2506000" />
+      <workItem from="1557819139117" duration="51000" />
+      <workItem from="1557821701623" duration="3658000" />
+      <workItem from="1557887372039" duration="1250000" />
+      <workItem from="1558685939582" duration="894000" />
+      <workItem from="1559224379817" duration="184000" />
+      <workItem from="1559370037109" duration="5220000" />
+      <workItem from="1559524803004" duration="1930000" />
+      <workItem from="1559552900140" duration="282000" />
+      <workItem from="1559553350166" duration="601000" />
+      <workItem from="1559957478861" duration="44000" />
+      <workItem from="1560128979773" duration="974000" />
+      <workItem from="1560658587480" duration="601000" />
+      <workItem from="1561001943062" duration="2062000" />
+      <workItem from="1561021019568" duration="4230000" />
+      <workItem from="1561363439855" duration="1459000" />
+      <workItem from="1561430730984" duration="2837000" />
+      <workItem from="1561441460042" duration="9573000" />
+      <workItem from="1561548487214" duration="17000" />
+      <workItem from="1561627258969" duration="4863000" />
+      <workItem from="1561688277046" duration="996000" />
+      <workItem from="1562056485381" duration="68000" />
+      <workItem from="1562206038797" duration="13105000" />
+      <workItem from="1562421312158" duration="7746000" />
+      <workItem from="1562465797544" duration="10457000" />
+      <workItem from="1562508386034" duration="2960000" />
+      <workItem from="1562549125844" duration="9119000" />
+      <workItem from="1563172425420" duration="47000" />
+      <workItem from="1563175917368" duration="1510000" />
+      <workItem from="1563259942513" duration="28000" />
+      <workItem from="1563711484014" duration="695000" />
+      <workItem from="1563763428998" duration="1933000" />
+      <workItem from="1563797907119" duration="2852000" />
+      <workItem from="1563847278709" duration="592000" />
+      <workItem from="1563979237261" duration="1256000" />
+      <workItem from="1564198130861" duration="607000" />
+      <workItem from="1564230445261" duration="2252000" />
+      <workItem from="1564455467912" duration="11409000" />
+      <workItem from="1564473168888" duration="2323000" />
+      <workItem from="1564479158194" duration="6192000" />
+      <workItem from="1564498657454" duration="28000" />
+      <workItem from="1564537967773" duration="12424000" />
+    </task>
+    <task id="LOCAL-00001" summary="本地提交">
+      <created>1563798945628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563798945628</updated>
+    </task>
+    <task id="LOCAL-00002" summary="不关闭session">
+      <created>1563979752343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563979752343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SessionAggrStatAccumulatorTest_AccumulatorTest - 2019.04.15 at 13h 49m 46s.xml">
+      <configuration name="SessionAggrStatAccumulatorTest.AccumulatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionAggrStatAccumulatorTest_AccumulatorTest - 2019.04.15 at 13h 53m 03s.xml">
+      <configuration name="SessionAggrStatAccumulatorTest.AccumulatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionAggrStatAccumulatorTest_AccumulatorTest - 2019.04.15 at 13h 54m 46s.xml">
+      <configuration name="SessionAggrStatAccumulatorTest.AccumulatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionAggrStatAccumulatorTest_AccumulatorTest - 2019.04.15 at 13h 56m 41s.xml">
+      <configuration name="SessionAggrStatAccumulatorTest.AccumulatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionAggrStatAccumulatorTest_AccumulatorTest - 2019.04.15 at 13h 57m 29s.xml">
+      <configuration name="SessionAggrStatAccumulatorTest.AccumulatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionAggrStatAccumulatorTest_AccumulatorTest - 2019.04.15 at 13h 58m 15s.xml">
+      <configuration name="SessionAggrStatAccumulatorTest.AccumulatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionAggrStatAccumulatorTest_AccumulatorTest - 2019.04.15 at 13h 58m 44s.xml">
+      <configuration name="SessionAggrStatAccumulatorTest.AccumulatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionAggrStatAccumulatorTest_AccumulatorTest - 2019.05.06 at 15h 30m 29s.xml">
+      <configuration name="SessionAggrStatAccumulatorTest.AccumulatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionAggrStatAccumulatorTest_AccumulatorTest_(1) - 2019.05.06 at 15h 33m 11s.xml">
+      <configuration name="SessionAggrStatAccumulatorTest.AccumulatorTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionAggrStatAccumulatorTest_AccumulatorTest - 2019.05.06 at 15h 48m 21s.xml">
+      <configuration name="SessionAggrStatAccumulatorTest.AccumulatorTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="343353000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18910742" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.33105803" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32879046" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.43515357" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.5315162" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.6081772" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32879046" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.22844176" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.18910742" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.33105803" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32879046" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.43515357" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.5315162" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.6081772" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32879046" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.22844176" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="本地提交" />
+    <MESSAGE value="不关闭session" />
+    <option name="LAST_COMMIT_MESSAGE" value="不关闭session" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/util/StringUtils.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/ITop10SessionDAO.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/rdd/PairRDDFunctions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/dev/scala/lib/scala-library.jar!/scala/collection/Iterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/jdbc/JDBCHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/factory/DAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/impl/Top10SessionDAOImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/util/ParamUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spark-project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/dao/ITaskDAO.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/META-INF/maven/com.alibaba/fastjson/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/AccumulatorTest.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/util/AccumulatorV2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/conf/ConfigurationManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/constant/Constants.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/util/DateUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibeifeng/sparkproject/conf/ConfigurationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibeifeng/sparkproject/test/FastjsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibeifeng/sparkproject/test/ConfigurationManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibeifeng/sparkproject/test/GenerateMockData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibeifeng/sparkproject/test/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-670">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibeifeng/sparkproject/test/TaskDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.5/jackson-module-scala_2.11-2.6.5.jar!/com/fasterxml/jackson/module/scala/JacksonModule.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3220">
+          <caret line="259" selection-start-line="259" selection-end-line="259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/rdd/RDDOperationScope.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-graphx_2.11/2.2.1/spark-graphx_2.11-2.2.1.jar!/org/apache/spark/graphx/GraphLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-graphx_2.11/2.2.1/spark-graphx_2.11-2.2.1.jar!/org/apache/spark/graphx/Edge.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-graphx_2.11/2.2.1/spark-graphx_2.11-2.2.1.jar!/org/apache/spark/graphx/GraphOps.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-graphx_2.11/2.2.1/spark-graphx_2.11-2.2.1.jar!/org/apache/spark/graphx/Graph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ibeifeng/AppTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ibeifeng/MySpec.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/rdd/RDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ibeifeng/SessionAggrStatAccumulatorTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="e#22#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/spark/session/CategorySortKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/dev/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="1152" column="15" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
+          <folding>
+            <element signature="e#23072#23073#0" expanded="true" />
+            <element signature="e#23112#23113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/dev/jdk1.8.0_201/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/spark/session/SessionAggrStatAccumulator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-479">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/spark/session/UserVisitSessionAnalyzeSpark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13055">
+          <caret line="575" column="21" selection-start-line="575" selection-start-column="9" selection-end-line="575" selection-end-column="21" />
+          <folding>
+            <element signature="e#49#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ibeifeng/GraphTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <folding>
+            <element signature="e#22#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ibeifeng/SparkMapJoin.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="e#22#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ibeifeng/CustomizeSort.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+          <folding>
+            <element signature="e#22#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/T1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.2.1/spark-catalyst_2.11-2.2.1.jar!/org/apache/spark/sql/Row.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.1/spark-sql_2.11-2.2.1.jar!/org/apache/spark/sql/Dataset.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.1/spark-sql_2.11-2.2.1.jar!/org/apache/spark/sql/functions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ibeifeng/sparkproject/test/MockData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="e#40#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ibeifeng/DslTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="109" />
+          <folding>
+            <element signature="e#22#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3718">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.1/spark-sql_2.11-2.2.1.jar!/org/apache/spark/sql/DatasetHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spark-project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
