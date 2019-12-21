@@ -98,6 +98,27 @@
       <artifactId>fastjson</artifactId>
       <version>1.2.47</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.hbase</groupId>
+      <artifactId>hbase-common</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.hbase</groupId>
+      <artifactId>hbase-client</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.hbase</groupId>
+      <artifactId>hbase-server</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+
+
+
   </dependencies>
 
   <build>
@@ -144,6 +165,7 @@
               <!--<include>org.apache.spark:spark-core_2.11</include>-->
               <include>com.alibaba:fastjson</include>
               <include>mysql:mysql-connector-java</include>
+              <include>org.apache.hbase:*</include>
 
             </includes>
           </artifactSet>

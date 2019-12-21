@@ -52,7 +52,8 @@ object GraphTest {
         (1000007,"0007公司",1000010,"0010公司",555.00),
         (1000006,"0006公司",1000012,"0012公司",199.00),
         (1000012,"0012公司",1000006,"0006公司",188.00),
-        (1000012,"0012公司",1000006,"0006公司",200.00)
+        (1000012,"0012公司",1000006,"0006公司",200.00),
+        (1000005,"0005公司",1000007,"0007公司",12000.00)
       )
     ).toDF("src_code","src_name","dst_code","dst_name","amount")
       .rdd
@@ -60,7 +61,7 @@ object GraphTest {
 
     val graph = Graph.fromEdges(guarant,Int.MaxValue)
 
-    //graph.stronglyConnectedComponents(Int.MaxValue).vertices.foreach(println(_))       //强连通
+    graph.stronglyConnectedComponents(Int.MaxValue).vertices.foreach(println(_))       //强连通
     //graph.connectedComponents(Int.MaxValue).vertices.foreach(println(_))               //弱连通
 
     val cycledf =

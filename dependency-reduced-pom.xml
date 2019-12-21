@@ -46,6 +46,7 @@
             <includes>
               <include>com.alibaba:fastjson</include>
               <include>mysql:mysql-connector-java</include>
+              <include>org.apache.hbase:*</include>
             </includes>
           </artifactSet>
           <filters>

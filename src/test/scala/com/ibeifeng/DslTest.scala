@@ -73,18 +73,18 @@ object DslTest {
     val empDF = sparkSession.sqlContext.createDataFrame(empRDD,empschema)
     val salDF = sparkSession.sqlContext.createDataFrame(salRDD,salschema)
 
-    //empDF.alias("emp").filter("emp.deptno=30").show()
-    //empDF.alias("emp").filter("emp.job='职员'").select("emp.empno","emp.ename","emp.deptno").show()
-    //empDF.alias("emp").filter("emp.comm>emp.sal").show()
-    //empDF.alias("emp").filter("emp.comm>sal*0.6").show()
-    //empDF.alias("emp").filter("emp.ename like '%A%'").show()
-    //empDF.alias("emp").filter("emp.ename like 'A%' or emp.ename like 'B%' or emp.ename like 'S%'").show()
-    //empDF.alias("emp").filter("length(ename)=7").show()
-    //empDF.alias("emp").filter("emp.ename not like '%r%'").show()
+    /*empDF.alias("emp").filter("emp.deptno=30").show()
+    empDF.alias("emp").filter("emp.job='职员'").select("emp.empno","emp.ename","emp.deptno").show()
+    empDF.alias("emp").filter("emp.comm>emp.sal").show()
+    empDF.alias("emp").filter("emp.comm>sal*0.6").show()
+    empDF.alias("emp").filter("emp.ename like '%A%'").show()
+    empDF.alias("emp").filter("emp.ename like 'A%' or emp.ename like 'B%' or emp.ename like 'S%'").show()
+    empDF.alias("emp").filter("length(ename)=7").show()
+    empDF.alias("emp").filter("emp.ename not like '%r%'").show()*/
 
-    /**
+
     //排序中orderBy和sort的用法和结果是相同的
-    import org.apache.spark.sql.functions._
+    /*import org.apache.spark.sql.functions._
     empDF.alias("emp").orderBy(desc("emp.ename")).orderBy(asc("emp.sal")).select("ename","sal").show()
     //cast函数表示将结果转换成另外一种数据类型  decimal(10,2)表示 最大10位数字其中包括小数点后两位
     empDF.alias("emp").selectExpr("emp.ename as name","cast(emp.sal/30 as decimal(10,2)) as 30avgsal").show()
@@ -99,27 +99,34 @@ object DslTest {
       .selectExpr("deptno","names").show()
     //聚合每个部门 并且 统计每个部门的职位数量
     empDF.alias("emp").groupBy("emp.deptno").agg(countDistinct("emp.job").alias("cono"))
-      .selectExpr("deptno","cono").show() */
+      .selectExpr("deptno","cono").show()*/
 
-    import sparkSession.implicits._
+
+    /*import sparkSession.implicits._
     //left semi join是以左表为准，在右表中查找匹配的记录，如果查找成功，则仅返回左边的记录，否则返回null，
-    //empDF.alias("emp").join(deptDF.as("dept"),($"emp.deptno"===$"dept.deptno"),"leftsemi").show()
+    empDF.alias("emp").join(deptDF.as("dept"),($"emp.deptno"===$"dept.deptno"),"leftsemi").show()
     //left anti join与left semi join相反，是以左表为准，在右表中查找匹配的记录，如果查找成功，则返回null，否则仅返回左边的记录
-    //empDF.alias("emp").join(deptDF.as("dept"),($"emp.deptno"===$"dept.deptno"),"leftanti").show()
+    empDF.alias("emp").join(deptDF.as("dept"),($"emp.deptno"===$"dept.deptno"),"leftanti").show()*/
 
 
-    import org.apache.spark.sql.functions._
+    /*import org.apache.spark.sql.functions._
     empDF.alias("emp").join(broadcast(deptDF).as("dept"),col("emp.deptno")===col("dept.deptno"),"left")
       .withColumn("desc",when(col("emp.comm").isNotNull/*.and(col("emp.comm").notEqual(""))*/,"有奖金").otherwise("没有奖金"))
       .filter("emp.job='职员'")
       .selectExpr("emp.empno","emp.ename","emp.job","emp.sal","emp.deptno","dept.dname","desc").alias("tmp")
       .join(salDF.alias("sal"),(col("tmp.sal")>col("sal.losal")).and(col("tmp.sal")<col("sal.hisal")))
       .filter("tmp.deptno=10")
-      .selectExpr("tmp.empno","tmp.ename","tmp.sal","sal.grade","tmp.deptno","tmp.dname","desc").show()
+      .selectExpr("tmp.empno","tmp.ename","tmp.sal","sal.grade","tmp.deptno","tmp.dname","desc").show()*/
 
+    //empDF.show()
+    //deptDF.show()
+    //salDF.show()
 
+    //import sparkSession.implicits._
+    //empDF.alias("emp").join(deptDF.alias("dept"),$"emp.deptno"==="dept.deptno","inner").show()
 
-
+    import sparkSession.implicits._
+    empDF.alias("emp").join(deptDF.as("dept"),($"emp.deptno"===$"dept.deptno"),"leftanti").show()
 
   }
 
